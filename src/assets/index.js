@@ -24,11 +24,16 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import rmit from "./company/rmit.png";
+import swinburne from "./company/swinburne.png";
+import imove from "./company/imove.png";
+import benit from "./company/benit.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -55,6 +60,10 @@ export {
   meta,
   shopify,
   starbucks,
+  rmit,
+  swinburne,
+  imove,
+  benit,
   tesla,
   carrent,
   jobit,
