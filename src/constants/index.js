@@ -15,18 +15,19 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
     rmit,
     swinburne,
     imove,
     benit,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    csharp,
+    angular,
+    php,
+    postman,
+    python,
 } from "../assets";
 
 export const navLinks = [
@@ -84,10 +85,10 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -116,6 +117,10 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+    {
+        name: "postman",
+        icon: postman,
+    },
 ];
 
 const experiences = [
@@ -130,7 +135,7 @@ const experiences = [
             "In particular, I have focused on building dynamic websites, where I have acquired the skills to design and develop websites that are interactive, user-friendly, and responsive",
             "Additionally, I have honed my proficiency in applying introductory object-oriented language skills, enabling me to create efficient and modular code structures for web development",
             "Moreover, I have developed a solid understanding of project management principles specific to the ICT industry, allowing me to effectively plan, execute, and oversee ICT projects, ensuring their successful completion within established constraints",
-            "By combining these skills, I am well-equipped to contribute to the development of innovative and user-centric digital solutions.",            
+            "By combining these skills, I am well-equipped to contribute to the development of innovative and user-centric digital solutions.",
         ],
     },
     {

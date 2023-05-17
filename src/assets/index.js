@@ -20,15 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from "./tech/csharp.png";
+import angular from "./tech/angular.png";
+import php from "./tech/php.png";
+import postman from "./tech/postman.png";
+import python from "./tech/python.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import rmit from "./company/rmit.png";
 import swinburne from "./company/swinburne.png";
 import imove from "./company/imove.png";
 import benit from "./company/benit.png";
-import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,14 +58,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
+  csharp,
+  angular,
+  php,
+  postman,
+  python,
   rmit,
   swinburne,
   imove,
   benit,
-  tesla,
   carrent,
   jobit,
   tripguide,
