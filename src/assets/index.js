@@ -31,9 +31,12 @@ import swinburne from "./company/swinburne.png";
 import imove from "./company/imove.png";
 import benit from "./company/benit.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ptemaster from "./ptemaster.png";
+import pokemonapp from "./pokemonapp.png";
+import employee_polls from "./employee_polls.png";
+import myread from "./myread.png";
+import comparensave from "./comparensave.png";
+import energy from "./energy.png";
 
 
 export {
@@ -67,7 +70,10 @@ export {
   swinburne,
   imove,
   benit,
-  carrent,
-  jobit,
-  tripguide,
+  ptemaster,
+  pokemonapp,
+  employee_polls,
+  myread,
+  comparensave,
+  energy, 
 };

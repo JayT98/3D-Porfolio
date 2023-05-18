@@ -19,15 +19,18 @@ import {
     swinburne,
     imove,
     benit,
-    carrent,
-    jobit,
-    tripguide,
+    ptemaster,
+    pokemonapp,
+    employee_polls,
     threejs,
     csharp,
     angular,
     php,
     postman,
     python,
+    myread,
+    comparensave,
+    energy
 } from "../assets";
 
 export const navLinks = [
@@ -210,30 +213,71 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "PTE Master",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "PTE Master & PTE Platform are online Learning system with integration to AI(NLP) for students practice English to take English Test PTE",
         tags: [
             {
-                name: "react",
+                name: "Laravel-PHP",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Kubernetes",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Dockers",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Angular",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "AWS",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Microservices",
+                color: "yellow-text-gradient",
+            },
+        ],
+        image: ptemaster,
+        source_code_link: "https://www.masterpte.com.au/",
+    },
+    {
+        name: "Comparensave",
+        description:
+            "I have maintained and refactor code from new design of the website compare 100s of home loans, investment loans and SMSF loans from Australia’s most trusted lenders.",
+        tags: [
+            {
+                name: "ReactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "REST API",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Jira + Wiki",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Slack",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: comparensave,
+        source_code_link: "https://comparensave.com.au/",
     },
     {
-        name: "Job IT",
+        name: "Pokemon APP",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Creating a website can search and display all Pokemon Data as well as showing details of each pokemon through APIs with the purpose of practicing React Skills.",
         tags: [
             {
                 name: "react",
@@ -244,33 +288,107 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
+            {
+                name: "HTML",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Javascript",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Postman",
+                color: "yellow-text-gradient",
+            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: pokemonapp,
+        source_code_link: "https://pokemon-dw1isp5g6-jayt98.vercel.app/gen-i",
     },
     {
-        name: "Trip Guide",
+        name: "Employee Polls",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "I built a web app that lets an employee can login and create polls for coworkers. The process goes like this: An employee is asked a question in the form: 'Would you rather [option A] or [option B] ?'. Answering 'neither' or 'both' is not possible.",
         tags: [
             {
-                name: "nextjs",
+                name: "ReactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Redux",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "API data",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "HTML",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: employee_polls,
+        source_code_link: "https://employee-polls-lc6cpkmvw-jayt98.vercel.app/login?redirectTo=/",
+    },
+    {
+        name: "My Reader",
+        description:
+            "In the MyReads project, I created a bookshelf app that allows me to select, search and categorize books I have read, are currently reading, or want to read. The project emphasizes using React to build the application and provides an API server and client library that I used to persist information as I interact with the application",
+        tags: [
+            {
+                name: "ReactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "API data",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Postman",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: myread,
+        source_code_link: "https://my-reads-puce.vercel.app/",
+    },
+    {
+        name: "Data-Visualisation - Sustainability: Energy",
+        description:
+            "In the project we focused on visualisations related to Energy production and or use. I worked as a team leader in this project; I managed my team and divided the tasks among the team member. Furthermore, I also tested and supported my code team.",
+        tags: [
+            {
+                name: "D3.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Data.CSV",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: energy,
+        source_code_link: "https://github.com/JayT98/Data-VIsualisation-Group",
     },
 ];
 
