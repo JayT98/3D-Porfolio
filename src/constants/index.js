@@ -187,27 +187,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "The software developer did an excellent job in ensuring that the software is bug-free and stable. I have been using it for a while now, and I have not encountered any issues or crashes.",
+        name: "Julie Duong",
+        designation: "Accountant",
+        company: "SIXT",
+        image: "../../public/julie_duong.png",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Good habit working attitude, proactive and enthusiasm.",
+        name: "Hieu Mai",
+        designation: "CEO",
+        company: "BENIT",
+        image: "../../public/hieu_mai.png",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "I thought it was impossible to make a website as beautiful as our product, but Jay proved me wrong.",
+        name: "Johnny Nguyen",
+        designation: "Compression Manager",
+        company: "Australian Pharmaceutical Manufacturers (APM)",
+        image: "https://randomuser.me/api/portraits/men/9.jpg",
     },
 ];
 
