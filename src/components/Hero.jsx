@@ -24,8 +24,8 @@ const Hero = () => {
                 </div>
                 <div className="ml-12">
                     <img
-                        className="w-60 h-60 object-cover mb-52 orange-pink-gradient p-[3px] rounded-full shadow-card cursor-pointer"
-                        src="../../public/jay.png"
+                        className="w-60 h-60 object-cover orange-pink-gradient p-[2px] rounded-full shadow-card cursor-pointer"
+                        src="/jay.png"
                         alt="Jay_Avatar"></img>
                 </div>
             </div>

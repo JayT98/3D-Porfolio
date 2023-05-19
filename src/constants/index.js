@@ -191,7 +191,7 @@ const testimonials = [
         name: "Julie Duong",
         designation: "Accountant",
         company: "SIXT",
-        image: "../../public/julie_duong.png",
+        image: "/julie_duong.png",
     },
     {
         testimonial:
@@ -199,7 +199,7 @@ const testimonials = [
         name: "Hieu Mai",
         designation: "CEO",
         company: "BENIT",
-        image: "../../public/hieu_mai.png",
+        image: "/hieu_mai.png",
     },
     {
         testimonial:
