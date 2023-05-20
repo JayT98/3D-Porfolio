@@ -56,7 +56,18 @@ const About = () => {
                 together to bring your ideas to life!
             </motion.p>
 
-
+            <div className="flex flex-wrap mt-5">
+                <button
+                    type="submit"
+                    className="w-56 h-12 rounded-xl outline-none text-white font-bold shadow-md shadow-primary">
+                    <a
+                        href="../../public/documents/Trung_Nguyen.pdf"
+                        className="py-6 px-10 orange-pink-gradient mt-3 rounded-xl outline-none text-white font-bold shadow-md shadow-primary flex content-center align-middle"
+                        target="_blank">
+                        Download My CV
+                    </a>
+                </button>
+            </div>
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (
                     <ServiceCard

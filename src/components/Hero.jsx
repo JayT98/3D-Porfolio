@@ -26,7 +26,8 @@ const Hero = () => {
                     <img
                         className="w-60 h-60 object-cover orange-pink-gradient p-[2px] rounded-full shadow-card cursor-pointer"
                         src="/jay.png"
-                        alt="Jay_Avatar"></img>
+                        alt="Jay_Avatar"
+                    />
                 </div>
             </div>
 
