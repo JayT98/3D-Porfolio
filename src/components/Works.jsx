@@ -36,13 +36,14 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-4/12 h-10 text-xs rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img
+            More Details
+              {/* <img
                 src={website}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
-              />
+              /> */}
             </div>
           </div>
         </div>
