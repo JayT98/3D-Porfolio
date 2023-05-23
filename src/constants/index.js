@@ -30,7 +30,9 @@ import {
     python,
     myread,
     comparensave,
-    energy
+    energy,
+    jungtalents,
+    cclmagic,
 } from "../assets";
 
 export const navLinks = [
@@ -128,6 +130,49 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Website Developer / Tutor",
+        company_name: "Jungtalents",
+        icon: jungtalents,
+        iconBg: "#E6DEDD",
+        date: "March 2023 - Present",
+        points: [
+            "Helping IT students and many people can interactive projects and real-world case studies in IT industry",
+            "As web developer I am responsible for designing, building, and maintaining websites and web applications. ",
+            "I worked through a systematic process that involves planning, design, front-end and back-end development, testing, deployment, and ongoing maintenance.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "BENIT",
+        icon: benit,
+        iconBg: "#E6DEDD",
+        date: "2020 - Present",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Designer/ Full Stack Developer",
+        company_name: "IMOVE AUSTRALIA",
+        icon: imove,
+        iconBg: "#E6DEDD",
+        date: "March 2022 - Oct 2022",
+        points: [
+            "In my role as a designer and full-stack developer, I played a pivotal role in both the design and development aspects of my projects",
+            "I spearheaded the creation of the design and prototype for my website team, ensuring visually appealing and user-friendly interfaces. Additionally, I took the lead in devising a comprehensive plan and collaborated with my team to establish streamlined front-end and back-end processes.",
+            "To enhance our project's functionality, I successfully integrated Next.js, a powerful framework, with GTFS data",
+            "This integration allowed us to visualize the simulation of public transport services in Melbourne, providing users with an immersive and informative experience.",
+            "Through these endeavors, I showcased my ability to combine design expertise with technical skills, resulting in innovative and impactful solutions.",
+        ],
+    },
+];
+
+const educations = [
+    {
         title: "Diploma Of Information Technology",
         company_name: "RMIT University, Melbourne",
         icon: rmit,
@@ -155,33 +200,6 @@ const experiences = [
             "Overall, my studies at Swinburne University have empowered me with a solid foundation and the confidence to excel in the dynamic and ever-evolving world of computer science.",
         ],
     },
-    {
-        title: "Designer/ Full Stack Developer",
-        company_name: "IMOVE AUSTRALIA",
-        icon: imove,
-        iconBg: "#E6DEDD",
-        date: "March 2022 - Oct 2022",
-        points: [
-            "In my role as a designer and full-stack developer, I played a pivotal role in both the design and development aspects of my projects",
-            "I spearheaded the creation of the design and prototype for my website team, ensuring visually appealing and user-friendly interfaces. Additionally, I took the lead in devising a comprehensive plan and collaborated with my team to establish streamlined front-end and back-end processes.",
-            "To enhance our project's functionality, I successfully integrated Next.js, a powerful framework, with GTFS data",
-            "This integration allowed us to visualize the simulation of public transport services in Melbourne, providing users with an immersive and informative experience.",
-            "Through these endeavors, I showcased my ability to combine design expertise with technical skills, resulting in innovative and impactful solutions.",
-        ],
-    },
-    {
-        title: "Software Engineer",
-        company_name: "BENIT",
-        icon: benit,
-        iconBg: "#E6DEDD",
-        date: "2020 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
 ];
 
 const testimonials = [
@@ -194,8 +212,7 @@ const testimonials = [
         image: "/julie_duong.png",
     },
     {
-        testimonial:
-            "Good habit working attitude, proactive and enthusiasm.",
+        testimonial: "Good habit working attitude, proactive and enthusiasm.",
         name: "Hieu Mai",
         designation: "CEO",
         company: "BENIT",
@@ -275,6 +292,35 @@ const projects = [
         source_code_link: "https://comparensave.com.au/",
     },
     {
+        name: "CCL Magic",
+        description:
+            "I have responsibility for developing and maintaining the website; this website helps many students pass the challenging CCL exam.",
+        tags: [
+            {
+                name: "ReactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "REST API",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Jira + Wiki",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Slack",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: cclmagic,
+        source_code_link: "https://cclmagic.com.au/",
+    },
+    {
         name: "Pokemon APP",
         description:
             "Creating a website can search and display all Pokemon Data as well as showing details of each pokemon through APIs with the purpose of practicing React Skills.",
@@ -334,7 +380,8 @@ const projects = [
             },
         ],
         image: employee_polls,
-        source_code_link: "https://employee-polls-lc6cpkmvw-jayt98.vercel.app/login?redirectTo=/",
+        source_code_link:
+            "https://employee-polls-lc6cpkmvw-jayt98.vercel.app/login?redirectTo=/",
     },
     {
         name: "My Reader",
@@ -392,4 +439,11 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+    services,
+    technologies,
+    experiences,
+    educations,
+    testimonials,
+    projects,
+};

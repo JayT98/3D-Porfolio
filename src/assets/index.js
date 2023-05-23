@@ -32,6 +32,7 @@ import rmit from "./company/rmit.png";
 import swinburne from "./company/swinburne.png";
 import imove from "./company/imove.png";
 import benit from "./company/benit.png";
+import jungtalents from "./company/jungtalents.svg"
 
 import ptemaster from "./ptemaster.png";
 import pokemonapp from "./pokemonapp.png";
@@ -39,6 +40,7 @@ import employee_polls from "./employee_polls.png";
 import myread from "./myread.png";
 import comparensave from "./comparensave.png";
 import energy from "./energy.png";
+import cclmagic from "./cclmagic.png"
 
 
 export {
@@ -74,10 +76,12 @@ export {
   swinburne,
   imove,
   benit,
+  jungtalents,
   ptemaster,
   pokemonapp,
   employee_polls,
   myread,
   comparensave,
   energy, 
+  cclmagic,
 };
